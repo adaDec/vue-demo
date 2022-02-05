@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-    李阳
+    <Nav/>
     <Header />
+    <Banner />
   </div>
 </template>
 
 <script>
 import Header from './components/header.vue'
+import Nav from './components/nav.vue'
+import Banner from './components/banner.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Nav,
+    Banner
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+*{
+  margin: 0;
+  padding: 0;
 }
 </style>
