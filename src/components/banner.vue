@@ -3,8 +3,8 @@
     <img :src="imgUrl" width="100%" />
   </div>
 </template>
-
 <script>
+// javascript
 export default {
   name: 'Banner',
   props: {
@@ -21,8 +21,8 @@ export default {
   }
 }
 </script>
-
 <style scoped>
+/* css */
 .topbanner-box {
   padding: 0 8px;
   font-size: 16px;
